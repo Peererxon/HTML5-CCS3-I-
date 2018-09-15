@@ -1,0 +1,79 @@
+/* Pulsar en + dentro de font google y copiar el font-family de alli y aplicarlo de una forma similar a lo siguiente: NOTA la pag tardara un poco mas en cargar*/
+body{
+	background: lightgreen;
+}
+
+h1 {
+	font-family: 'Gamja Flower', cursive;
+	text-align: center;
+		/* valores del text-aling:
+	 -center
+	 -right
+	 -left
+	 -justify
+	 */
+
+	text-decoration: underline red;
+	/* valores del text-decoration (decoracion del texto tachado, subrayado,etc, con none se le quita ___ a las <a>)
+	-underline
+	-overline
+	-line-through
+	 -none*/
+
+}
+  
+
+article{ /* despues de background # () para el formato rgb*/
+	background: rgba(0,0,255,.7);
+
+}
+
+table{
+	width: 50%;
+	margin:auto;
+}
+
+table,td,tr {
+	border: 3px solid red;
+	border-collapse: collapse;
+}
+
+td {
+	padding: 5px;
+}
+
+/*modificando la tipografia del h2 */
+h2{
+	font-style: italic;
+
+}
+
+/* modificando el tamaño de la letra,grosor y el estilo de fuente en este orden*/
+p {
+	font-family: 'rulan Risplay', cursive;
+	font-size: 25px;
+	font-weight: 100;
+	font-variant: small-caps;
+	line-height: 38px;
+	/* espacio entre palabras*/ 
+	word-spacing: 13px;
+	/* espacio entre LETRAS*/
+	letter-spacing: 10px;
+	/* sangria*/
+	text-indent: 15px;
+	
+	text-transform: capitalize;
+	/* valores del text-transform
+	-uppercase:mayus
+	-lowercase:minus
+	-capitalize:iniciales en mayusculas; */
+ }
+
+
+ /* FORMULARIOS*/
+
+form {
+	background: blue;
+	width: 300px;
+	height: 200px;
+}

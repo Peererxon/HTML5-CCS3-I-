@@ -1,0 +1,26 @@
+.formulario {
+	background: lightgreen;
+	border-style: solid;
+}
+
+#sesion{
+	font-size: 27px;
+
+}
+
+label {
+	font-family: 'Great Vibes', cursive;
+	width: 300px;
+}
+
+#Registro {
+	font-size: 27px;
+}
+
+.datos{
+	margin: 1px;
+}
+
+#sexo{
+	font-size: 20px;
+}

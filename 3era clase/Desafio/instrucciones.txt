@@ -1,0 +1,20 @@
+Según los recursos adjuntados, realizar las siguientes actividades:
+Nota: debe enviar un archivo comprimido con todos los html, la carpeta css, img y descarga.
+
+1.- Crear los archivos index.html y style.css. Igualmente debe enlazar los archivos style.css y normalize a su html.
+ Nota: en este desafío tiene libertad para maquetar su página web a su preferencia, ya sea usando propiedades css vistas
+ en clase u otras.
+
+2.- Usar las etiquetas semánticas de HTML5 y combinarlas con div's para estructurar el contenido adjuntado.
+
+3.- Agregar, mínimo 5 imágenes a su proyecto por medio de la etiqueta correspondiente.
+ Todas las imágenes deben estar guardadas en una carpeta llamada "img". Nota: cada imagen debe poseer:
+ un ancho especificado, texto alternativo por si la imagen no carga y
+ un título que se mostrará al pasar el mouse por encima de ella.
+
+4.- Crear las páginas: html5.html, css3.html, javascript.html, jquery.html y contacto.html. 
+Asociar cada nuevo archivo al menu principal de la pagina usando una lista desordenada.
+
+5.- Investigar cómo mostrar los archivos adjuntados en la carpeta "descarga", 
+al hacer click sobre su enlace: archivo de word, archivo pdf, archivo imagen y archivo comprimido.
+

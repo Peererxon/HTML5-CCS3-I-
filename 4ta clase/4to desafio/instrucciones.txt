@@ -1,0 +1,13 @@
+Nota: debe enviar todo el proyecto en un archivo comprimido. Puede maquetar la página web usando propiedades vistas en clase u otras.
+
+
+.- Crear un archivo llamado "tablas.html".
+
+2.- Agregar las tablas de multiplicar desde el 2 hasta el 5 en el archivo tablas.html mediante las etiquetas correspondientes.
+
+3.- Crear los archivos index.html y estilos.css. Debe enlazar estilos.css con el html e incluir una tipografía de Google Fonts.
+
+4.- Agregar un formulario para iniciar sesión en el sitio web, dicho formulario contiene un campo de tipo texto para el usuario, uno de tipo contraseña, los nombres para cada input (label) y un botón que envíe los datos. Nota: cada formulario debe tener su nombre.
+
+5.- Realizar un formulario de registro con los siguientes campos:
+ Nombre, Apellido, Cédula, Email de tipo text, Contraseña y confirmación de contraseña de tipo password, Sexo(Masculino, Femenino) de tipo radio, Nivel de educación(Primaria, Secundaria, Universitario, Maestría, Doctorado) de tipo select. Al final debe tener un botón para enviar los datos y otro para limpiar los campos.

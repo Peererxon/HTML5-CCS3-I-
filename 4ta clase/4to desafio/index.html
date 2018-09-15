@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Gamja+Flower">
+	<link rel="stylesheet" type="text/css" href="estilos.css"></link>
+	<title>Reto desde mi casitax</title>
+
+</head>
+
+<body>
+
+
+	<p id="sesion" style="color: red">Iniciar sesion</p>
+
+	<form class="formulario" name="formulario-login" method="post">
+	
+	<label form="usuario" place> Usuario</label>
+	<input type="text" style="color: lightblue" id="usuario" placeholder="Ingrese su usuario aqui" name="usuario" maxlength="9">
+
+	<label form="clave"> Clave</label>
+	<input type="password" name="clave" id="clave" placeholder="Ingrese su clave">
+
+
+<input  type="submit" name="Enviar">
+
+	</form>
+
+	<form class="formulario" name="registrarse" method="post">
+		<p id="Registro" style="color: red">Registro</p>
+
+		<div>
+
+		<label class="datos">Nombre</label>
+		<input type="text" name="Nombre" style="color: lightblue" >
+
+		<label class="datos">Apellido</label>
+		<input type="text" name="Apellido" style="color: lightblue">
+
+		<label class="datos">Email</label>
+		<input type="text" name="correo" placeholder="correo electronico de preferencia" style="color: lightblue">
+
+		</div>
+
+		<div>
+		<label class="datos">contraseña</label>
+		<input type="password" name="contraseña" maxlength="6" placeholder="maximo 6 caracteres" size="10" style="color: red">
+
+		<label >Confirmacion de contraseña</label>
+		<input type="password" name="contraseña" maxlength="6" placeholder="maximo 6 caracteres" size="10" style="color: red">
+		</div>
+
+		<div>
+
+		<span id="sexo">sexo</span>
+		
+
+		<label >Masculino</label>
+		<input type="radio" name="Sexo" value="Masculino">
+
+		<label >femenino</label>
+		<input type="radio" name="Sexo" value="femenino">
+
+
+		<label style="color: purple" >Depende de la situacion</label>
+		<input type="radio" name="Sexo" value="Depende">
+
+	    
+		<select >
+		 
+
+		 <option disabled>Nivel de educacion</option>
+		 <option>Primaria</option>
+		 <option>Secundaria</option>
+		 <option>Universitario</option>
+		 <option>Maestria</option>
+		 <option>Doctorado</option>
+		</select>
+
+		 </div>	
+
+
+		 <div>
+
+		 <input type="submit" name="Enviar">
+		 <input type="reset" name="limpiar">
+		 </div>
+
+		
+
+	</form>
+
+
+
+</div>
+</body>
+</html>

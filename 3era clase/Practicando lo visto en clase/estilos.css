@@ -1,0 +1,45 @@
+#titulo{
+	/* con esta configuracion se centra el titulo principal en este caso */
+	text-align:center;
+ 	width: 30%;
+ 	margin:0px auto;
+ }
+
+header {
+	height: 150px;
+	background: lightgray;
+}
+
+header nav{
+	background: green;
+	text-align: center;
+
+}
+
+#porque-es{
+	background: green;
+}
+
+
+article{
+	width: 300px;float: left; /* Es para que se vean apliados en columnas*/
+}
+
+article p{
+	width: 100%   /*Al colocar px  son pixeles y % es con respecto al tamano del articulo dentro de div*/
+	/* margin-left: 40px; */
+	/* margin-right: : 40px; */
+	height: 100%;
+	background: lightblue;
+	float: left;
+}
+
+.Articulo {
+	margin-left: 4px; 
+	/*margin-right: : 40px; */
+	/*text-align: center; /*Con esto se logra centrar la clases desde CCS pero tiene un efecto */
+	background: red;
+	border-style: solid;
+	font-color: blue;
+
+}

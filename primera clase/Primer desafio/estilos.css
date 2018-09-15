@@ -1,0 +1,13 @@
+body
+
+/*Para cambiar las propiedades del estilo en css*/
+{background:#60d659;}
+
+/*Para cambiar los colores del fondo, solo con colores rgb dentro del background ejemplo:blanco #f4f5f7
+amarillo pollito #deff07 azul electrico:#062be5. background justo despues de body*/
+h1,h2{padding: 15px   }
+/*{font: 89#arial;}*/
+#titulo {text-align:center;
+	}
+#Datos {text-align:center;}
+#Estudios {text-align: center;}

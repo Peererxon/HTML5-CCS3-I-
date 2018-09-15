@@ -1,0 +1,16 @@
+En base a 1 resumen curricular
+
+1.- Descargar e instalar sublime text. En este objetivo deberá enviar en un archivo word las capturas de pantalla con el proceso de instalación y uso.
+
+2.- Crear los archivos index.html y estilos.css.
+
+3.- Crear la estructura básica de HTML5 y enlazar el archivo estilos.css con el index.html.
+
+4.- Agregar contenido al html usando las etiquetas de: encabezados, párrafos, negrita, cursiva y cita.
+
+5.- Modificar la apariencia del contenido usando css por medio de los tipos de selectores: etiqueta, clase e id.
+En este objetivo debe usar colores (color), fondos (background) y alguna otra propiedad que desee incorporar.
+
+
+
+ihihihiiihi

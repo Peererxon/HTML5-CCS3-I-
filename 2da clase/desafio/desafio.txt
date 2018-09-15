@@ -1,0 +1,23 @@
+
+
+
+segun el texto adjuntado. 2666_2.txt
+
+
+realizar las siguieets actividades:
+
+Enviar un archivo comprimido con los archivos html y css
+
+1 Crear Html y Css
+
+2 Enlazar archivo CSS con html. Los estilo en Css lo deben guardar en una carpeta llamada CSS
+
+3 Usar y enlazar el archivo normalize.CSS con el HTML
+
+4 Agregar las etiquetas div y span en html.
+
+5 Aplicar estilos con las propiedades CSS vista en clases y otras que desea agregar a la pagina.
+
+
+
+

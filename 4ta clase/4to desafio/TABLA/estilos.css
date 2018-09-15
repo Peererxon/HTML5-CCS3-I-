@@ -1,0 +1,17 @@
+table,td,tr,th{
+	border: 2px solid;
+}
+
+table {
+	width: 20%; 
+	margin: auto;
+}
+
+tr{
+	background: black;
+	color: red
+}
+
+h1{
+	text-align: center;
+}

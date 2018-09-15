@@ -1,0 +1,69 @@
+header{
+  height: 100px;
+  background: blue
+}
+ /*el float right en el header dentro del nav es para que todos se muevan*/
+header nav {
+  height: 100px;
+  width: 500px;
+  background: pink;
+  float:right;
+}
+
+
+
+section{
+	height: 700px;
+}
+
+#productos-destacados{
+	background: lightblue;
+}
+
+#testimonios {
+	background: green;
+}
+article{
+	height: 500px;
+	width: 300px;
+	background: white;
+	float: left;
+	margin-left: 50px;
+}
+
+aside{
+	height: 700px;
+	width: 300px;
+	background: yellow;
+}
+
+footer{
+	height: 100px;
+	width: 300px;
+	background:gray;
+}
+
+#contactos{
+	height: 300px;
+	background:purple;
+}
+
+/*nav li{
+	margin: 20px;
+/*	display: inline; 
+	background: lightblue;
+	border-radius: 10px;
+	padding: 10px; */
+	
+
+}
+/* para que se quite el subrayado del enlace*/
+a{ text-decoration: none;
+
+}
+
+ol li{
+	list-style-image: url("../img/Lighthouse.jpg");
+
+
+}

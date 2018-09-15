@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="CSS/estilos.css">
+	<title></title>
+</head>
+<body>
+
+	<table >
+		<!--tr es la fila,  y td columna -->
+		<thead>
+			<tr>
+				<!-- el th centra automaticamente la columna y lo pone en negrita-->
+
+				<th>nombre</th>	
+				<td>apellido</td>
+				<td>fecha</td>
+			</tr>
+		</thead>
+
+
+
+		<tbody>
+			<tr>
+				<td>Anderson</td>
+				<td>Gil</td>
+				<td>8/07/2000</td>
+			</tr>
+			<tr>
+				<td>pepe</td>
+				<td>Guzman</td>
+				<td>05/02/1990</td>
+			</tr>
+
+		</tbody>
+
+
+
+
+
+	</table>
+
+   <!--FORMULARIOS-->
+   <!--se declara con-->
+   <form name="Formulario-login" method="post" action="
+   procesar-loging.php">
+
+    <!--input es para ingresar una barra de busqueda,label es para ingresar el titulo de esta barra -->
+
+    <label form="usuario">Usuario</label>
+    <!-- max espara la cantidad maxima de caracteres a ingresar-->
+    <input type="text" name="usuario" id="usuario" maxlength="10" size="22">
+    <label form="clave">clave</label>
+   	<input type="password" name="clave" id="clave" placeholder="ingresar contraseña" size="20">
+
+   	<!--PARA UN LISTADO select
+   		PARA las opciones option-->
+
+   	<select>
+   		<!--para que no se pueda seleccionar-->
+   		<option disabled>selecciona</option>
+   		<option>Venezuela</option>	
+   		<option>Colombia</option>
+   		<option>Canada</option>
+   		<option>Perù</option>
+
+   	</select>
+
+   	<label>masculino</label>
+   	<input type="radio" name="genero" value="masculino">
+
+   	<label>femenino</label>
+   	<input type="radio" name="genero" value="femenino">
+
+   	<label>feminazi</label>
+   	<input type="radio" name="genero" value="feminazi">
+
+   	   	<label>medio pato</label>
+   	<input type="radio" name="genero" value="medio pato">
+
+   	<label>acepto los terminos y condiciones</label>
+   	<input type="checkbox" name="comprobar">
+	</form>
+
+
+</body>
+</html>
